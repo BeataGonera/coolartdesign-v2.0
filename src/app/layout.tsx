@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Inria_Sans } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/ui/organisms/Navbar";
+import MenuMobile from "@/ui/organisms/MenuMobile";
 
 const inria = Inria_Sans({
-  weight: ["400", "700"],
+  weight: ["300", "400", "700"],
   subsets: ["latin"],
 });
 
@@ -20,7 +22,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inria.className}>{children}</body>
+      <body className={inria.className}>
+        <Navbar />
+        <MenuMobile />
+        {children}
+      </body>
     </html>
   );
 }
