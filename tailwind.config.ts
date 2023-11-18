@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "landing-page": "url('/background.webp')",
+        "wykonawstwo-page": "url('/wykonawstwo-background.png')",
       },
       colors: {
         transparent: "transparent",
