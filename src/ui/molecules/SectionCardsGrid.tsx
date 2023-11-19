@@ -1,6 +1,6 @@
 import { FC } from "react";
-import CardProject from "./CardBuilding";
 import { Project } from "@/types/ProjectType";
+import CardProject from "./CardProject";
 
 type SectionCardsGridProps = {
   projects: Project[];

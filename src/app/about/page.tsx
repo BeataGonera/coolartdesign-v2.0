@@ -1,4 +1,5 @@
 import { TeamMemberType } from "@/types/TeamMemberType";
+import DecorStripes from "@/ui/atoms/DecorStripes";
 import CardTeamMember from "@/ui/molecules/CardTeamMember";
 import Footer from "@/ui/organisms/Footer";
 
@@ -42,6 +43,7 @@ const AboutPage = () => {
           <h1 className="text-white uppercase tracking-widest font-light text-5xl w-full text-center">
             O nas
           </h1>
+          <DecorStripes />
           <p className="text-white tracking-widest">
             Firma CoolArtDesign została formalnie zarejestrowana w 2003 r. i
             jest efektem długotrwałej współpracy z doświadczonymi architektami

@@ -16,7 +16,7 @@ const Navlink: FC<NavlinkProps> = ({ path, linkName }) => {
   return (
     <Link
       href={path}
-      className={pathname.includes(path) ? `menu-link active` : `menu-link`}
+      className={pathname == path ? `menu-link active` : `menu-link`}
       onClick={() => setIsMenuOpen(false)}
     >
       {linkName}

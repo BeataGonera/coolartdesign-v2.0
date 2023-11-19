@@ -1,4 +1,6 @@
 import { Project } from "@/types/ProjectType";
+import DecorScrollDown from "@/ui/atoms/DecorScrollDown";
+import DecorStripes from "@/ui/atoms/DecorStripes";
 import MenuArchitekturaPage from "@/ui/molecules/MenuArchitekturaPage";
 import SectionCardsGrid from "@/ui/molecules/SectionCardsGrid";
 import Footer from "@/ui/organisms/Footer";
@@ -41,10 +43,12 @@ const WnetrzaPage = () => {
     <main className="flex flex-col justify-end gap-4 mt-32">
       <MenuArchitekturaPage />
       <SectionCardsGrid projects={interiors} />
-      <section className="w-screen bg-dark-primary h-fit p-4 py-12 text-center lg:text-left lg:p-36 leading-7 flex flex-col gap-12">
+      <section className="w-screen bg-dark-primary h-fit p-4 py-12 text-center lg:text-left lg:p-36 lg:pt-12 leading-7 flex flex-col gap-12">
+        <DecorScrollDown />
         <h1 className="text-white uppercase tracking-widest font-light text-2xl lg:text-5xl w-full text-center">
           Projektujemy od 2003 roku
         </h1>
+        <DecorStripes />
         <p className="text-white tracking-widest">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
