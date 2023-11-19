@@ -17,8 +17,19 @@ const config: Config = {
         current: "currentColor",
         "dark-primary": "#161616",
       },
+      keyframes: {
+        appear: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "0.8" },
+        },
+        category: {
+          "0%": { opacity: "0.75" },
+          "100%": { opacity: "0.85" },
+        },
+      },
       animation: {
-        appear: "spin 3s linear",
+        appear: "appear 0.3s ease-in-out forwards",
+        category: "category 0.3s ease-in-out forwards",
       },
     },
   },

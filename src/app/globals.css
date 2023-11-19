@@ -85,3 +85,33 @@ path:nth-child(6) {
 .active path:nth-child(6) {
   transform: translateX(9px) translateY(1px) rotate(45deg);
 }
+
+@keyframes fade-out {
+  from {
+    opacity: 0.75;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.shadow-layer:not(:hover) {
+  animation-name: fade-out;
+  animation-duration: 0.7s;
+  animation-iteration-count: forwards;
+}
+
+@keyframes fade-out-category {
+  from {
+    opacity: 0.85;
+  }
+  to {
+    opacity: 0.75;
+  }
+}
+
+.category:not(:hover) {
+  animation-name: fade-out-category;
+  animation-duration: 0.7s;
+  animation-iteration-count: forwards;
+}
