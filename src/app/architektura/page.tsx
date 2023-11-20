@@ -5,7 +5,7 @@ import Footer from "@/ui/organisms/Footer";
 
 const ArchitekturaPage = () => {
   return (
-    <main className="flex flex-col gap-4 max-h-screen min-h-screen justify-end">
+    <main className="flex flex-col gap-4 min-h-screen justify-end pt-36">
       <section className="flex p-2 lg:p-0 flex-col lg:flex-row w-screen gap-2 lg:gap-4">
         <HeaderArchitecture />
         <SectionBuildings />

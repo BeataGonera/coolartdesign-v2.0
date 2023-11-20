@@ -8,16 +8,6 @@ const MenuArchitekturaPage = () => {
   return (
     <section className="flex w-screen justify-end px-12 gap-8">
       <Link
-        href="/architektura/wnetrza"
-        className={
-          pathname == "/architektura/wnetrza"
-            ? "uppercase tracking-widest text-dark-primary text-lg font-bold"
-            : `uppercase tracking-widest text-dark-primary text-lg font-light`
-        }
-      >
-        Wnętrza
-      </Link>
-      <Link
         href="/architektura/budynki"
         className={
           pathname.includes("/architektura/budynki")
@@ -26,6 +16,16 @@ const MenuArchitekturaPage = () => {
         }
       >
         Budynki
+      </Link>
+      <Link
+        href="/architektura/wnetrza"
+        className={
+          pathname == "/architektura/wnetrza"
+            ? "uppercase tracking-widest text-dark-primary text-lg font-bold"
+            : `uppercase tracking-widest text-dark-primary text-lg font-light`
+        }
+      >
+        Wnętrza
       </Link>
     </section>
   );

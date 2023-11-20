@@ -12,12 +12,14 @@ const MenuMobile = () => {
       <nav
         className={
           isMenuOpen
-            ? `lg:hidden flex flex-col w-screen h-screen bg-white opacity-100 fixed top-0 left-0 p-4 gap-14 z-30`
-            : `flex lg:hidden w-screen fixed bg-white opacity-80 top-0 left-0 p-4 h-fit justify-between items-center z-20`
+            ? `lg:hidden flex flex-col w-screen h-screen bg-white opacity-100 fixed top-0 left-0 p-4 justify-start gap-24 z-50`
+            : `flex lg:hidden w-screen fixed bg-white opacity-80 top-0 left-0 p-4 h-fit justify-between items-center z-50`
         }
       >
-        <div className="w-1/2">
-          <Logo />
+        <div className="w-full">
+          <div className="w-1/2">
+            <Logo />
+          </div>
         </div>
         <ul
           className={

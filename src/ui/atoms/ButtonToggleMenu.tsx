@@ -1,13 +1,11 @@
 "use client";
 
 import { useIsMenuOpenStore } from "@/state/isMenuOpen";
-import { useState } from "react";
 
 const ButtonToggleMenu = () => {
-  const [isActive, setIsActive] = useState(false);
-  const { setIsMenuOpen, isMenuOpen } = useIsMenuOpenStore();
+  const { isMenuOpen, setIsMenuOpen } = useIsMenuOpenStore();
+
   const toggleMenu = () => {
-    setIsActive(!isActive);
     setIsMenuOpen(!isMenuOpen);
   };
 
@@ -15,7 +13,7 @@ const ButtonToggleMenu = () => {
     <button className="block lg:hidden">
       <div
         className={
-          isActive ? "menu-button-container active" : "menu-button-container"
+          isMenuOpen ? "menu-button-container active" : "menu-button-container"
         }
         onClick={toggleMenu}
       >

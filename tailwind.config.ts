@@ -12,6 +12,10 @@ const config: Config = {
         "landing-page": "url('/background.webp')",
         "wykonawstwo-page": "url('/wykonawstwo-background.png')",
         "contact-page": "url('/contact-background.webp')",
+        "contact-page-mobile": "url('/contact-bg-mobile.webp')",
+      },
+      listStyleType: {
+        square: "square",
       },
       colors: {
         transparent: "transparent",
