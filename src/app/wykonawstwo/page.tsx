@@ -2,6 +2,7 @@ import DecorStripesDark from "@/ui/atoms/DecorStripesDark";
 import DecorStripesLeft from "@/ui/atoms/DecorStripesLeft";
 import Footer from "@/ui/organisms/Footer";
 import Image from "next/image";
+import { Suspense } from "react";
 
 const WykonawstwoPage = () => {
   return (

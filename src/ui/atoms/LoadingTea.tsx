@@ -1,6 +1,23 @@
+"use client";
+
+import { useIsLoadingScreenVisibleStore } from "@/state/isLoadingScreenVisible";
+
 const LoadingTea = () => {
+  const { setIsLoadingScreenVisible, isLoadingScreenVisible } =
+    useIsLoadingScreenVisibleStore();
+
+  setTimeout(() => {
+    setIsLoadingScreenVisible(false);
+  }, 3000);
+
   return (
-    <main className="w-screen h-screen absolute top-0 left-0 z-[60] flex flex-col justify-center items-center bg-white">
+    <main
+      className={
+        isLoadingScreenVisible
+          ? "w-screen h-screen absolute top-0 left-0 z-[60] flex flex-col justify-center items-center bg-white"
+          : "hidden"
+      }
+    >
       <svg
         className="tea"
         width="37"
