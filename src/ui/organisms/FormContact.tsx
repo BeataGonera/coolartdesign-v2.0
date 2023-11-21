@@ -53,7 +53,7 @@ const FormContact = () => {
   return (
     <>
       <form
-        className="flex flex-col gap-8 lg:w-4/6 max-w-[600px] justify-between relative"
+        className="flex flex-col w-full gap-8 lg:w-4/6 max-w-[600px] justify-between relative"
         onSubmit={handleSubmit}
       >
         <InputEmail setEmail={setEmail} email={email} />

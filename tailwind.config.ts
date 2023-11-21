@@ -13,6 +13,9 @@ const config: Config = {
         "wykonawstwo-page": "url('/wykonawstwo-background.png')",
         "contact-page": "url('/contact-background.webp')",
         "contact-page-mobile": "url('/contact-bg-mobile.webp')",
+        "doradztwo-page": "url('/doradztwo-bg.png')",
+        "doradztwo-page-mobile": "url('/doradztwo-bg-mobile.png)",
+        "nadzor-page": "url('/nadzor-bg.png')",
       },
       listStyleType: {
         square: "square",

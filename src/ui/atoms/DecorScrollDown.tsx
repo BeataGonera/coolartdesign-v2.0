@@ -20,8 +20,8 @@ const DecorScrollDown = () => {
     <div
       className={
         visible
-          ? "w-full lg:flex justify-center animate-bounce"
-          : "w-full lg:flex justify-center animate-disappear"
+          ? "w-full hidden lg:flex justify-center animate-bounce"
+          : "w-full hidden lg:flex justify-center animate-disappear"
       }
     >
       <svg

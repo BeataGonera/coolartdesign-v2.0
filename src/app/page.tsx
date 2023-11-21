@@ -1,5 +1,3 @@
-import LoadingTea from "@/ui/atoms/LoadingTea";
-
 export default function Home() {
   return (
     <main className="w-screen h-screen bg-landing-page bg-cover">
@@ -11,7 +9,6 @@ export default function Home() {
         </h2>
         <h2 className="text-xl lg:text-3xl">Nadzór nad realizacją projektów</h2>
       </section>
-      <LoadingTea />
     </main>
   );
 }

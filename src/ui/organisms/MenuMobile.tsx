@@ -17,7 +17,7 @@ const MenuMobile = () => {
         }
       >
         <div className="w-full">
-          <div className="w-1/2">
+          <div className="w-1/3">
             <Logo />
           </div>
         </div>
@@ -30,7 +30,7 @@ const MenuMobile = () => {
           <Navlink path="/wykonawstwo" linkName="Wykonawstwo" />
           <Navlink path="/architektura" linkName="Architektura" />
           <Navlink path="/doradztwo" linkName="Doradztwo" />
-          <Navlink path="/nadzór" linkName="Nadzór" />
+          <Navlink path="/nadzor" linkName="Nadzór" />
           <Navlink path="/about" linkName="O nas" />
           <Navlink path="/kontakt" linkName="Kontakt" />
         </ul>

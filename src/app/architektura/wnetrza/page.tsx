@@ -43,7 +43,7 @@ const WnetrzaPage = () => {
     <main className="flex flex-col justify-end gap-4 mt-32">
       <MenuArchitekturaPage />
       <SectionCardsGrid projects={interiors} />
-      <section className="w-screen bg-dark-primary h-fit p-4 py-12 text-center lg:text-left lg:p-36 lg:pt-12 leading-7 flex flex-col gap-12">
+      <section className="w-screen bg-dark-primary h-fit p-4 py-12 text-center lg:text-left lg:p-36 lg:pt-12 leading-7 flex flex-col gap-8 lg:gap-12">
         <DecorScrollDown />
         <h1 className="text-white uppercase tracking-widest font-light text-2xl lg:text-5xl w-full text-center">
           Projektujemy od 2003 roku
@@ -59,7 +59,6 @@ const WnetrzaPage = () => {
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
       </section>
-      <Footer />
     </main>
   );
 };

@@ -8,12 +8,12 @@ const Navbar = () => {
         <div className="w-1/6">
           <Logo />
         </div>
-        <ul className="flex gap-8 text-dark-primary font-light text-xl tracking-widest menu-list">
+        <ul className="flex gap-4 xl:gap-8 text-dark-primary font-light text-lg xl:text-xl tracking-widest menu-list">
           <Navlink path="/" linkName="Home" />
           <Navlink path="/wykonawstwo" linkName="Wykonawstwo" />
           <Navlink path="/architektura" linkName="Architektura" />
           <Navlink path="/doradztwo" linkName="Doradztwo" />
-          <Navlink path="/nadzór" linkName="Nadzór" />
+          <Navlink path="/nadzor" linkName="Nadzór" />
           <Navlink path="/about" linkName="O nas" />
           <Navlink path="/kontakt" linkName="Kontakt" />
         </ul>

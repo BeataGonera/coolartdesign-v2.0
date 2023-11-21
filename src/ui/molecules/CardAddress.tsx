@@ -2,7 +2,7 @@ import Logo from "../atoms/Logo";
 
 const CardAddress = () => {
   return (
-    <section className="lg:w-1/3 bg-white opacity-80 p-4 lg:p-8 flex flex-col gap-4">
+    <section className="lg:w-1/3 bg-white opacity-80 p-4 lg:p-8 flex flex-col gap-4 max-w-[600px] w-full">
       <Logo />
       <div className="w-full flex flex-col text-dark-primary font-light tracking-widest text-lg gap-2">
         <p>coolartdesign@gmail.com</p>
