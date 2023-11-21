@@ -12,6 +12,7 @@ const ImageBuilding: FC<ImageBuildingProps> = ({ image }) => {
       alt={image}
       width="500"
       height="500"
+      priority={true}
       style={{ objectFit: "cover", width: "100%", height: "100%" }}
     />
   );
