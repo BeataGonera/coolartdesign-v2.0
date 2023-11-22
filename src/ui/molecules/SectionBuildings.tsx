@@ -2,10 +2,10 @@ import Link from "next/link";
 import ImageBuilding from "../atoms/ImageBuilding";
 
 const buildings = [
-  "/building1.png",
-  "/building2.png",
-  "/building3.png",
-  "/building4.png",
+  "/building1.webp",
+  "/building2.webp",
+  "/building3.webp",
+  "/building4.webp",
 ];
 
 const SectionBuildings = () => {

@@ -1,8 +1,7 @@
 import Link from "next/link";
 import ImageBuilding from "../atoms/ImageBuilding";
-import Image from "next/image";
 
-const interiors = ["/interior1.png", "/interior2.png"];
+const interiors = ["/interior1.webp", "/interior2.webp"];
 
 const SectionInteriors = () => {
   return (
