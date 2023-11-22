@@ -3,39 +3,38 @@ import DecorScrollDown from "@/ui/atoms/DecorScrollDown";
 import DecorStripes from "@/ui/atoms/DecorStripes";
 import MenuArchitekturaPage from "@/ui/molecules/MenuArchitekturaPage";
 import SectionCardsGrid from "@/ui/molecules/SectionCardsGrid";
-import Footer from "@/ui/organisms/Footer";
 
 const BudynkiPage = () => {
   const buildings: Project[] = [
     {
       name: "Inwestycja we Wrocławiu",
       description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-      image: "/building1.png",
+      image: "/building1.webp",
     },
     {
       name: "Inwestycja we Wrocławiu",
       description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-      image: "/building2.png",
+      image: "/building2.webp",
     },
     {
       name: "Inwestycja we Wrocławiu",
       description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-      image: "/building3.png",
+      image: "/building3.webp",
     },
     {
       name: "Inwestycja we Wrocławiu",
       description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-      image: "/building4.png",
+      image: "/building4.webp",
     },
     {
       name: "Inwestycja we Wrocławiu",
       description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-      image: "/building1.png",
+      image: "/building1.webp",
     },
     {
       name: "Inwestycja we Wrocławiu",
       description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-      image: "/building2.png",
+      image: "/building2.webp",
     },
   ];
 

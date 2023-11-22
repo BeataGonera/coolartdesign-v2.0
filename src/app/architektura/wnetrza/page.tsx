@@ -9,32 +9,32 @@ const interiors: Project[] = [
   {
     name: "Projekt wnętrza domu we Wrocławiu",
     description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-    image: "/interior1.png",
+    image: "/interior1.webp",
   },
   {
     name: "Projekt wnętrza domu we Wrocławiu",
     description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-    image: "/interior2.png",
+    image: "/interior2.webp",
   },
   {
     name: "Projekt wnętrza domu we Wrocławiu",
     description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-    image: "/interior1.png",
+    image: "/interior1.webp",
   },
   {
     name: "Projekt wnętrza domu we Wrocławiu",
     description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-    image: "/interior2.png",
+    image: "/interior2.webp",
   },
   {
     name: "Projekt wnętrza domu we Wrocławiu",
     description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-    image: "/interior1.png",
+    image: "/interior1.webp",
   },
   {
     name: "Projekt wnętrza domu we Wrocławiu",
     description: "Zaprojektowana przez CoolArtDesign Architecture Studio",
-    image: "/interior2.png",
+    image: "/interior2.webp",
   },
 ];
 
