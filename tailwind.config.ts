@@ -10,12 +10,12 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "landing-page": "url('/background.webp')",
-        "wykonawstwo-page": "url('/wykonawstwo-background.png')",
+        "wykonawstwo-page": "url('/wykonawstwo-background.webp')",
         "contact-page": "url('/contact-background.webp')",
         "contact-page-mobile": "url('/contact-bg-mobile.webp')",
-        "doradztwo-page": "url('/doradztwo-bg.png')",
-        "doradztwo-page-mobile": "url('/doradztwo-bg-mobile.png)",
-        "nadzor-page": "url('/nadzor-bg.png')",
+        "doradztwo-page": "url('/doradztwo-bg.webp')",
+        "doradztwo-page-mobile": "url('/doradztwo-bg-mobile.webp)",
+        "nadzor-page": "url('/nadzor-bg.webp')",
       },
       listStyleType: {
         square: "square",
