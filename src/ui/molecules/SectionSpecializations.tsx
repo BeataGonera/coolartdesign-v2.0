@@ -8,17 +8,17 @@ import CardSpecialization from "./CardSpecialization";
 const specializations: Specialization[] = [
   {
     label: "Wykonawstwo",
-    icon: <BuildOutlinedIcon className="text-[50px]" />,
+    icon: <BuildOutlinedIcon sx={{ fontSize: "50px" }} />,
     href: "/wykonawstwo",
   },
   {
     label: "Architektura",
-    icon: <CorporateFareOutlinedIcon className="text-[50px]" />,
+    icon: <CorporateFareOutlinedIcon sx={{ fontSize: "50px" }} />,
     href: "/architektura",
   },
   {
     label: "Doradztwo",
-    icon: <InfoOutlinedIcon className="text-[50px]" />,
+    icon: <InfoOutlinedIcon sx={{ fontSize: "50px" }} />,
     href: "/doradztwo",
   },
   {
