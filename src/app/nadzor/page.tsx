@@ -1,12 +1,11 @@
 import DecorStripes from "@/ui/atoms/DecorStripes";
-import DecorStripesDark from "@/ui/atoms/DecorStripesDark";
 import DecorStripesRight from "@/ui/atoms/DecorStripesRight";
 import HeaderMobile from "@/ui/molecules/HeaderMobile";
 import Image from "next/image";
 
 const NadzorPage = () => {
   return (
-    <main className="min-h-screen w-screen bg-none lg:bg-nadzor-page bg-cover flex justify-end items-center lg:pb-0">
+    <main className="lg:h-[calc(100vh-63px)] w-screen bg-none lg:bg-nadzor-page bg-cover flex justify-end items-center lg:pb-0">
       <section className="w-full lg:w-1/2 p-2 lg:p-12 gap-2 lg:gap-8 flex flex-col pt-36 lg:pt-0">
         <HeaderMobile header={"Nadzór"} />
         <div className="lg:hidden">

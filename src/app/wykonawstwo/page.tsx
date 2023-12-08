@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const WykonawstwoPage = () => {
   return (
-    <main className="w-screen bg-none lg:bg-wykonawstwo-page bg-cover flex flex-col justify-center min-h-screen pt-36 text-dark-primary p-2">
+    <main className="w-screen bg-none lg:bg-wykonawstwo-page bg-cover flex flex-col justify-center lg:h-[calc(100vh-63px)] pt-36 text-dark-primary p-2">
       <div className="w-full lg:w-1/2 flex flex-col gap-2 lg:gap-12 lg:p-12 lg:bg-none">
         <section className="w-full flex flex-col gap-2">
           <HeaderMobile header={"Wykonawstwo"} />

@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      gridTemplateRows: {
+        "landing-page": "15fr 47fr 18fr 20fr",
+      },
       backgroundImage: {
         "landing-page": "url('/background.webp')",
         "wykonawstwo-page": "url('/wykonawstwo-background.webp')",

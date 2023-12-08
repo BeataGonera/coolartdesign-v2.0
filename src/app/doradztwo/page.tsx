@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const DoradztwoPage = () => {
   return (
-    <main className="min-h-screen w-screen bg-none lg:bg-doradztwo-page bg-cover flex justify-end items-center lg:pb-0 p-2">
+    <main className="lg:h-[calc(100vh-63px)] w-screen bg-none lg:bg-doradztwo-page bg-cover flex justify-end items-center lg:pb-0 p-2">
       <section className="w-full lg:w-1/2 lg:p-12 gap-2 flex flex-col pt-36 lg:pt-0 text-white lg:text-dark-primary">
         <HeaderMobile header={"Doradztwo"} />
 

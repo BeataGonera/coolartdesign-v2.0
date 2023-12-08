@@ -3,7 +3,6 @@ import DecorScrollDown from "@/ui/atoms/DecorScrollDown";
 import DecorStripes from "@/ui/atoms/DecorStripes";
 import MenuArchitekturaPage from "@/ui/molecules/MenuArchitekturaPage";
 import SectionCardsGrid from "@/ui/molecules/SectionCardsGrid";
-import Footer from "@/ui/organisms/Footer";
 
 const interiors: Project[] = [
   {

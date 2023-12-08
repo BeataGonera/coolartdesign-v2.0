@@ -15,7 +15,7 @@
   content: "";
   position: absolute;
   background-color: #161616;
-  height: 1px;
+  height: 2px;
   width: 0;
   bottom: -6px;
   transition: 0.3s;
