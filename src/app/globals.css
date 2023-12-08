@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.menu-link:after {
+/* .menu-link:after {
   content: "";
   position: absolute;
   background-color: #161616;
@@ -20,7 +20,7 @@
   bottom: -6px;
   transition: 0.3s;
   left: 0;
-}
+} */
 
 .menu-link:hover:after {
   width: 100%;
